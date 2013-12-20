@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="Martin Rist - Windows" parent="Eclipse">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="control C" />
+  </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="control X" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="control V" />
+  </action>
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift alt Z" />
+  </action>
+  <action id=":plugin.repl.actions/clear-repl">
+    <keyboard-shortcut first-keystroke="control alt C" />
+  </action>
+  <action id=":plugin.repl.actions/load-file">
+    <keyboard-shortcut first-keystroke="control alt L" />
+  </action>
+  <action id=":plugin.repl.actions/run-last-sexp">
+    <keyboard-shortcut first-keystroke="control alt R" />
+  </action>
+  <action id=":plugin.repl.actions/switch-namespace">
+    <keyboard-shortcut first-keystroke="control alt N" />
+  </action>
+  <action id=":plugin.testing.actions/run-ns-tests">
+    <keyboard-shortcut first-keystroke="control alt T" />
+  </action>
+  <action id="ActivateDebugToolWindow">
+    <keyboard-shortcut first-keystroke="F11" />
+  </action>
+  <action id="ActivateNavBar" />
+  <action id="ActivateREPLToolWindow">
+    <keyboard-shortcut first-keystroke="alt 5" />
+  </action>
+  <action id="ActivateRunToolWindow">
+    <keyboard-shortcut first-keystroke="control F11" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt 4" />
+  </action>
+  <action id="ChangeTypeSignature" />
+  <action id="ChooseDebugConfiguration">
+    <keyboard-shortcut first-keystroke="shift F11" />
+  </action>
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="shift control F11" />
+  </action>
+  <action id="CloneElement" />
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift control MINUS" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="control MINUS" />
+  </action>
+  <action id="CopyPaths" />
+  <action id="CopyReference" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="F11" />
+  </action>
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="F11" />
+  </action>
+  <action id="Editor Copy" />
+  <action id="Editor Paste" />
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="shift alt Z" />
+  </action>
+  <action id="EditorContextInfo">
+    <keyboard-shortcut first-keystroke="alt Q" />
+    <keyboard-shortcut first-keystroke="shift alt Q" />
+  </action>
+  <action id="EditorPasteSimple" />
+  <action id="EditorToggleColumnMode" />
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift control EQUALS" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="control EQUALS" />
+  </action>
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt INSERT" />
+  </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="shift control G" />
+  </action>
+  <action id="ForceRunToCursor" />
+  <action id="ForceStepInto" />
+  <action id="ForceStepOver" />
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="F3" />
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="alt button1" />
+  </action>
+  <action id="GotoPreviousError" />
+  <action id="GotoRelated" />
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift control N" />
+  </action>
+  <action id="GuiDesigner.SurroundPopup">
+    <keyboard-shortcut first-keystroke="shift alt Z" />
+  </action>
+  <action id="IntroduceConstant" />
+  <action id="IntroduceField" />
+  <action id="IntroduceParameter" />
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="shift alt L" />
+  </action>
+  <action id="Jdbc.RunSqlScript">
+    <keyboard-shortcut first-keystroke="shift control F11" />
+  </action>
+  <action id="Mvc.RunTarget" />
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="control N" />
+  </action>
+  <action id="PasteMultiple" />
+  <action id="QuickEvaluateExpression" />
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="shift control SPACE" />
+    <keyboard-shortcut first-keystroke="F2" />
+    <keyboard-shortcut first-keystroke="shift control Q" />
+  </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift alt T" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="shift control F" />
+  </action>
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="F8" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="control F11" />
+  </action>
+  <action id="RunAPT" />
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="control F11" />
+  </action>
+  <action id="RunTargetAction">
+    <keyboard-shortcut first-keystroke="control F11" />
+  </action>
+  <action id="SelectIn">
+    <keyboard-shortcut first-keystroke="shift alt W" />
+  </action>
+  <action id="ShowBookmarks" />
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="shift alt S" />
+    <keyboard-shortcut first-keystroke="control F10" />
+  </action>
+  <action id="ShowProjectStructureSettings">
+    <keyboard-shortcut first-keystroke="control alt COMMA" />
+  </action>
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="alt COMMA" />
+  </action>
+  <action id="ShowSettingsAndFindUsages" />
+  <action id="ShowUsages" />
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="F7" />
+  </action>
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="shift control Z" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+  <action id="ToggleBookmark" />
+  <action id="ToggleBookmarkWithMnemonic" />
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="shift control B" />
+  </action>
+  <action id="ToggleTemporaryLineBreakpoint" />
+  <action id="VcsShowNextChangeMarker" />
+  <action id="VcsShowPrevChangeMarker" />
+  <action id="ViewBreakpoints" />
+  <action id="XPathView.Actions.Evaluate" />
+  <action id="XPathView.Actions.FindByExpression" />
+  <action id="XPathView.Actions.ShowPath" />
+  <action id="context.load" />
+  <action id="context.save" />
+  <action id="tasks.close" />
+  <action id="tasks.goto" />
+  <action id="tasks.open.in.browser" />
+  <action id="tasks.switch" />
+  <action id="tasks.switch.toolbar" />
+</keymap>
+
