@@ -79,9 +79,7 @@
   <action id="ExpandRegion">
     <keyboard-shortcut first-keystroke="control EQUALS" />
   </action>
-  <action id="FileChooser.NewFolder">
-    <keyboard-shortcut first-keystroke="alt INSERT" />
-  </action>
+  <action id="FileChooser.NewFolder" />
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="shift control G" />
   </action>

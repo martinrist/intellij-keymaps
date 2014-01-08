@@ -27,6 +27,9 @@
   <action id="ActivateFavoritesToolWindow">
     <keyboard-shortcut first-keystroke="meta 2" />
   </action>
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="meta 3" />
+  </action>
   <action id="ActivateNavBar" />
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="meta 1" />
