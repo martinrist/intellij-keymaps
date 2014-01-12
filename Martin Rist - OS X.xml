@@ -192,12 +192,14 @@
   <action id="Move">
     <keyboard-shortcut first-keystroke="shift meta V" />
   </action>
-  <action id="MoveStatementDown">
+  <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="meta DOWN" />
   </action>
-  <action id="MoveStatementUp">
+  <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="meta UP" />
   </action>
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="meta N" />
   </action>
