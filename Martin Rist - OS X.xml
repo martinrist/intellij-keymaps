@@ -49,6 +49,7 @@
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta LEFT" />
+    <keyboard-shortcut first-keystroke="meta OPEN_BRACKET" />
   </action>
   <action id="ChangeSignature">
     <keyboard-shortcut first-keystroke="shift meta C" />
@@ -155,6 +156,7 @@
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="meta RIGHT" />
+    <keyboard-shortcut first-keystroke="meta CLOSE_BRACKET" />
   </action>
   <action id="GotoCustomRegion">
     <keyboard-shortcut first-keystroke="control meta PERIOD" />
