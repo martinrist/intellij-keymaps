@@ -88,6 +88,7 @@
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="F11" />
   </action>
+  <action id="Debugger.Inspect" />
   <action id="DelegateMethods">
     <keyboard-shortcut first-keystroke="shift meta E" />
   </action>
@@ -224,6 +225,11 @@
   <action id="Print">
     <keyboard-shortcut first-keystroke="meta P" />
   </action>
+  <action id="QuickEvaluateExpression">
+    <mouse-shortcut keystroke="alt button1" />
+    <keyboard-shortcut first-keystroke="shift control I" />
+  </action>
+  <action id="QuickImplementations" />
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="shift control SPACE" />
     <keyboard-shortcut first-keystroke="F2" />
