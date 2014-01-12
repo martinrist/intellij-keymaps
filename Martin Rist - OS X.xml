@@ -108,6 +108,12 @@
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="meta Z" />
   </action>
+  <action id="EditorDeleteToWordEnd">
+    <keyboard-shortcut first-keystroke="alt DELETE" />
+  </action>
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="alt BACK_SPACE" />
+  </action>
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="control meta DOWN" />
   </action>
@@ -242,6 +248,7 @@
   <action id="RunTargetAction">
     <keyboard-shortcut first-keystroke="control F11" />
   </action>
+  <action id="SafeDelete" />
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="meta S" />
   </action>
