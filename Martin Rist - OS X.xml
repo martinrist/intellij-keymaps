@@ -18,6 +18,21 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="meta Z" />
   </action>
+  <action id=":plugin.repl.actions/clear-repl">
+    <keyboard-shortcut first-keystroke="control meta C" />
+  </action>
+  <action id=":plugin.repl.actions/load-file">
+    <keyboard-shortcut first-keystroke="control meta L" />
+  </action>
+  <action id=":plugin.repl.actions/run-last-sexp">
+    <keyboard-shortcut first-keystroke="control meta R" />
+  </action>
+  <action id=":plugin.repl.actions/switch-namespace">
+    <keyboard-shortcut first-keystroke="control meta N" />
+  </action>
+  <action id=":plugin.testing.actions/run-ns-tests">
+    <keyboard-shortcut first-keystroke="control meta T" />
+  </action>
   <action id="ActivateChangesToolWindow">
     <keyboard-shortcut first-keystroke="meta 9" />
   </action>
@@ -33,6 +48,9 @@
   <action id="ActivateNavBar" />
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="meta 1" />
+  </action>
+  <action id="ActivateREPLToolWindow">
+    <keyboard-shortcut first-keystroke="meta 5" />
   </action>
   <action id="ActivateRunToolWindow">
     <keyboard-shortcut first-keystroke="control F11" />
