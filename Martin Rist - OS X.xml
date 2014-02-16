@@ -18,6 +18,9 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="meta Z" />
   </action>
+  <action id=":plugin.actions.paredit/toggle">
+    <keyboard-shortcut first-keystroke="control meta E" />
+  </action>
   <action id=":plugin.repl.actions/clear-repl">
     <keyboard-shortcut first-keystroke="control meta C" />
   </action>
