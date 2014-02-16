@@ -108,12 +108,22 @@
   <action id="Jdbc.RunSqlScript">
     <keyboard-shortcut first-keystroke="shift control F11" />
   </action>
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="alt DOWN" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="alt UP" />
+  </action>
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
   <action id="Mvc.RunTarget" />
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="control N" />
   </action>
   <action id="PasteMultiple" />
-  <action id="QuickEvaluateExpression" />
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="shift control I" />
+  </action>
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="shift control SPACE" />
     <keyboard-shortcut first-keystroke="F2" />
