@@ -49,7 +49,6 @@
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="meta LEFT" />
-    <keyboard-shortcut first-keystroke="meta OPEN_BRACKET" />
   </action>
   <action id="ChangeSignature">
     <keyboard-shortcut first-keystroke="shift meta C" />
@@ -156,7 +155,6 @@
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="meta RIGHT" />
-    <keyboard-shortcut first-keystroke="meta CLOSE_BRACKET" />
   </action>
   <action id="GotoCustomRegion">
     <keyboard-shortcut first-keystroke="control meta PERIOD" />
@@ -194,14 +192,12 @@
   <action id="Move">
     <keyboard-shortcut first-keystroke="shift meta V" />
   </action>
-  <action id="MoveLineDown">
+  <action id="MoveStatementDown">
     <keyboard-shortcut first-keystroke="meta DOWN" />
   </action>
-  <action id="MoveLineUp">
+  <action id="MoveStatementUp">
     <keyboard-shortcut first-keystroke="meta UP" />
   </action>
-  <action id="MoveStatementDown" />
-  <action id="MoveStatementUp" />
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="meta N" />
   </action>
@@ -213,6 +209,9 @@
   </action>
   <action id="OptimizeImports">
     <keyboard-shortcut first-keystroke="shift control O" />
+  </action>
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="control meta P" />
   </action>
   <action id="PasteMultiple" />
   <action id="PreviousProjectWindow" />
