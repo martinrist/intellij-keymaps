@@ -18,6 +18,18 @@
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="meta Z" />
   </action>
+  <action id=":plugin.actions.paredit/barf-backwards">
+    <keyboard-shortcut first-keystroke="control LEFT" />
+  </action>
+  <action id=":plugin.actions.paredit/barf-forwards">
+    <keyboard-shortcut first-keystroke="shift control RIGHT" />
+  </action>
+  <action id=":plugin.actions.paredit/slurp-backwards">
+    <keyboard-shortcut first-keystroke="control RIGHT" />
+  </action>
+  <action id=":plugin.actions.paredit/slurp-forwards">
+    <keyboard-shortcut first-keystroke="shift control LEFT" />
+  </action>
   <action id=":plugin.actions.paredit/toggle">
     <keyboard-shortcut first-keystroke="control meta E" />
   </action>
@@ -109,6 +121,7 @@
     <keyboard-shortcut first-keystroke="F11" />
   </action>
   <action id="Debugger.Inspect" />
+  <action id="DecrementWindowWidth" />
   <action id="DelegateMethods">
     <keyboard-shortcut first-keystroke="shift meta E" />
   </action>
@@ -130,6 +143,9 @@
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="meta Z" />
   </action>
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="meta MINUS" />
+  </action>
   <action id="EditorDeleteToWordEnd">
     <keyboard-shortcut first-keystroke="alt DELETE" />
   </action>
@@ -138,6 +154,9 @@
   </action>
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="control meta DOWN" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="meta EQUALS" />
   </action>
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="alt RIGHT" />
@@ -151,6 +170,9 @@
   </action>
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="EditorResetFontSize">
+    <keyboard-shortcut first-keystroke="meta 0" />
   </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="shift meta UP" />
@@ -197,6 +219,7 @@
   <action id="ImplementMethods">
     <keyboard-shortcut first-keystroke="shift meta P" />
   </action>
+  <action id="IncrementWindowWidth" />
   <action id="Inline">
     <keyboard-shortcut first-keystroke="shift meta I" />
   </action>
@@ -269,6 +292,8 @@
   <action id="Replace">
     <keyboard-shortcut first-keystroke="meta F" />
   </action>
+  <action id="ResizeToolWindowLeft" />
+  <action id="ResizeToolWindowRight" />
   <action id="Run">
     <keyboard-shortcut first-keystroke="control F11" />
   </action>
