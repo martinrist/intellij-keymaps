@@ -18,29 +18,43 @@
   <action id=":plugin.actions.paredit/barf-forwards">
     <keyboard-shortcut first-keystroke="shift control RIGHT" />
   </action>
+  <action id=":plugin.actions.paredit/kill">
+    <keyboard-shortcut first-keystroke="control DELETE" />
+  </action>
   <action id=":plugin.actions.paredit/slurp-backwards">
     <keyboard-shortcut first-keystroke="control RIGHT" />
   </action>
   <action id=":plugin.actions.paredit/slurp-forwards">
     <keyboard-shortcut first-keystroke="shift control LEFT" />
   </action>
+  <action id=":plugin.actions.paredit/splice">
+    <keyboard-shortcut first-keystroke="shift control UP" />
+  </action>
   <action id=":plugin.actions.paredit/toggle">
     <keyboard-shortcut first-keystroke="control alt E" />
   </action>
   <action id=":plugin.repl.actions/clear-repl">
     <keyboard-shortcut first-keystroke="control alt C" />
+    <keyboard-shortcut first-keystroke="F6" />
   </action>
   <action id=":plugin.repl.actions/load-file">
     <keyboard-shortcut first-keystroke="control alt L" />
+    <keyboard-shortcut first-keystroke="control S" />
   </action>
   <action id=":plugin.repl.actions/run-last-sexp">
     <keyboard-shortcut first-keystroke="control alt R" />
+    <keyboard-shortcut first-keystroke="F5" />
+  </action>
+  <action id=":plugin.repl.actions/run-top-sexp">
+    <keyboard-shortcut first-keystroke="alt E" />
   </action>
   <action id=":plugin.repl.actions/switch-namespace">
     <keyboard-shortcut first-keystroke="control alt N" />
+    <keyboard-shortcut first-keystroke="control N" />
   </action>
   <action id=":plugin.testing.actions/run-ns-tests">
     <keyboard-shortcut first-keystroke="control alt T" />
+    <keyboard-shortcut first-keystroke="control T" />
   </action>
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="F11" />
@@ -71,6 +85,7 @@
     <keyboard-shortcut first-keystroke="control MINUS" />
   </action>
   <action id="Console.History.Browse" />
+  <action id="Console.History.Next" />
   <action id="CopyPaths" />
   <action id="CopyReference" />
   <action id="Debug">
@@ -79,6 +94,7 @@
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="F11" />
   </action>
+  <action id="DecrementWindowHeight" />
   <action id="DecrementWindowWidth" />
   <action id="Editor Copy" />
   <action id="Editor Paste" />
@@ -92,9 +108,11 @@
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="alt MINUS" />
   </action>
+  <action id="EditorDeleteToWordEnd" />
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="alt EQUALS" />
   </action>
+  <action id="EditorLookupUp" />
   <action id="EditorNextWord" />
   <action id="EditorNextWordWithSelection">
     <keyboard-shortcut first-keystroke="shift alt RIGHT" />
@@ -107,6 +125,7 @@
   <action id="EditorResetFontSize">
     <keyboard-shortcut first-keystroke="alt 0" />
   </action>
+  <action id="EditorScrollUp" />
   <action id="EditorToggleColumnMode" />
   <action id="ExecuteInPyConsoleAction" />
   <action id="ExpandAllRegions">
@@ -127,10 +146,16 @@
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="alt button1" />
   </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="control alt B" />
+  </action>
   <action id="GotoPreviousError" />
   <action id="GotoRelated" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift control N" />
+  </action>
+  <action id="GuiDesigner.GoToListener">
+    <keyboard-shortcut first-keystroke="control alt B" />
   </action>
   <action id="GuiDesigner.SurroundPopup">
     <keyboard-shortcut first-keystroke="shift alt Z" />
@@ -145,6 +170,7 @@
   <action id="Jdbc.RunSqlScript">
     <keyboard-shortcut first-keystroke="shift control F11" />
   </action>
+  <action id="MethodUp" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="alt DOWN" />
   </action>
@@ -154,9 +180,7 @@
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
   <action id="Mvc.RunTarget" />
-  <action id="NewElement">
-    <keyboard-shortcut first-keystroke="control N" />
-  </action>
+  <action id="NewElement" />
   <action id="PasteMultiple" />
   <action id="QuickEvaluateExpression">
     <keyboard-shortcut first-keystroke="shift control I" />
@@ -172,8 +196,10 @@
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="shift control F" />
   </action>
+  <action id="RemoveFromFavorites" />
   <action id="ResizeToolWindowLeft" />
   <action id="ResizeToolWindowRight" />
+  <action id="ResizeToolWindowUp" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="F8" />
   </action>
@@ -187,6 +213,7 @@
   <action id="RunTargetAction">
     <keyboard-shortcut first-keystroke="control F11" />
   </action>
+  <action id="SaveAll" />
   <action id="Scala.TypeInfo" />
   <action id="SelectIn">
     <keyboard-shortcut first-keystroke="shift alt W" />
