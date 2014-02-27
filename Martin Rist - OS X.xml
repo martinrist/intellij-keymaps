@@ -19,16 +19,16 @@
     <keyboard-shortcut first-keystroke="meta Z" />
   </action>
   <action id=":plugin.actions.paredit/barf-backwards">
-    <keyboard-shortcut first-keystroke="control LEFT" />
+    <keyboard-shortcut first-keystroke="shift control K" />
   </action>
   <action id=":plugin.actions.paredit/barf-forwards">
-    <keyboard-shortcut first-keystroke="shift control RIGHT" />
+    <keyboard-shortcut first-keystroke="control meta J" />
   </action>
   <action id=":plugin.actions.paredit/slurp-backwards">
-    <keyboard-shortcut first-keystroke="control RIGHT" />
+    <keyboard-shortcut first-keystroke="shift control J" />
   </action>
   <action id=":plugin.actions.paredit/slurp-forwards">
-    <keyboard-shortcut first-keystroke="shift control LEFT" />
+    <keyboard-shortcut first-keystroke="control meta K" />
   </action>
   <action id=":plugin.actions.paredit/toggle">
     <keyboard-shortcut first-keystroke="control meta E" />
@@ -158,6 +158,7 @@
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="meta EQUALS" />
   </action>
+  <action id="EditorJoinLines" />
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="alt RIGHT" />
   </action>
@@ -193,6 +194,7 @@
     <keyboard-shortcut first-keystroke="shift meta M" />
   </action>
   <action id="FileChooser.NewFolder" />
+  <action id="FindPrevious" />
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="shift control G" />
   </action>
@@ -327,9 +329,7 @@
   <action id="SurroundWith">
     <keyboard-shortcut first-keystroke="shift control Z" />
   </action>
-  <action id="SurroundWithLiveTemplate">
-    <keyboard-shortcut first-keystroke="control meta J" />
-  </action>
+  <action id="SurroundWithLiveTemplate" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="control alt ENTER" />
   </action>
