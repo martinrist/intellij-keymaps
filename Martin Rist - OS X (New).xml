@@ -68,6 +68,9 @@
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="meta F" />
+  </action>
   <action id="FindPrevious" />
   <action id="Git.Push" />
   <action id="GotoAction" />
