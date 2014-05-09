@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="Martin Rist - OS X (New)" parent="Eclipse (Mac OS X)">
+  <action id=":plugin.actions.paredit/backward">
+    <keyboard-shortcut first-keystroke="shift meta H" />
+  </action>
+  <action id=":plugin.actions.paredit/barf-backwards">
+    <keyboard-shortcut first-keystroke="control meta K" />
+  </action>
+  <action id=":plugin.actions.paredit/barf-forwards">
+    <keyboard-shortcut first-keystroke="shift meta J" />
+  </action>
+  <action id=":plugin.actions.paredit/copy-as-kill">
+    <keyboard-shortcut first-keystroke="shift control K" />
+  </action>
+  <action id=":plugin.actions.paredit/forward">
+    <keyboard-shortcut first-keystroke="shift meta L" />
+  </action>
+  <action id=":plugin.actions.paredit/join">
+    <keyboard-shortcut first-keystroke="control meta S" />
+  </action>
+  <action id=":plugin.actions.paredit/kill">
+    <keyboard-shortcut first-keystroke="control K" />
+  </action>
+  <action id=":plugin.actions.paredit/raise">
+    <keyboard-shortcut first-keystroke="meta QUOTE" />
+  </action>
+  <action id=":plugin.actions.paredit/slurp-backwards">
+    <keyboard-shortcut first-keystroke="control meta J" />
+  </action>
+  <action id=":plugin.actions.paredit/slurp-forwards">
+    <keyboard-shortcut first-keystroke="shift meta K" />
+  </action>
+  <action id=":plugin.actions.paredit/splice">
+    <keyboard-shortcut first-keystroke="shift meta SEMICOLON" />
+  </action>
+  <action id=":plugin.actions.paredit/split">
+    <keyboard-shortcut first-keystroke="meta S" />
+  </action>
+  <action id=":plugin.repl.actions/clear-repl">
+    <keyboard-shortcut first-keystroke="control meta C" />
+  </action>
+  <action id=":plugin.repl.actions/load-file">
+    <keyboard-shortcut first-keystroke="control meta L" />
+  </action>
+  <action id=":plugin.repl.actions/run-last-sexp">
+    <keyboard-shortcut first-keystroke="control meta R" />
+  </action>
+  <action id=":plugin.repl.actions/run-top-sexp">
+    <keyboard-shortcut first-keystroke="control meta E" />
+  </action>
+  <action id=":plugin.repl.actions/switch-namespace">
+    <keyboard-shortcut first-keystroke="control meta N" />
+  </action>
+  <action id=":plugin.testing.actions/run-ns-tests">
+    <keyboard-shortcut first-keystroke="control meta T" />
+  </action>
+  <action id="FindPrevious" />
+  <action id="Git.Push" />
+  <action id="Images.Editor.ToggleGrid" />
+</keymap>
+
