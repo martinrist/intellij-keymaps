@@ -63,8 +63,31 @@
   <action id="ActivateREPLToolWindow">
     <keyboard-shortcut first-keystroke="meta 3" />
   </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="meta SUBTRACT" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="meta SUBTRACT" />
+  </action>
+  <action id="Console.TableResult.NavigateForeignAction">
+    <keyboard-shortcut first-keystroke="F3" />
+    <mouse-shortcut keystroke="control button1" />
+  </action>
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
+  <action id="EditorCutLineEnd" />
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="meta MINUS" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="meta EQUALS" />
+  </action>
+  <action id="ExpandAll">
+    <keyboard-shortcut first-keystroke="meta ADD" />
+  </action>
+  <action id="ExpandRegion">
+    <keyboard-shortcut first-keystroke="meta ADD" />
+  </action>
   <action id="FileChooser.GotoHome" />
   <action id="FileChooser.GotoModule" />
   <action id="FileChooser.GotoProject" />
@@ -74,7 +97,24 @@
   <action id="FindPrevious" />
   <action id="Git.Push" />
   <action id="GotoAction" />
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="F3" />
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="meta button1" />
+  </action>
   <action id="Images.Editor.ToggleGrid" />
+  <action id="Images.Editor.ZoomIn">
+    <keyboard-shortcut first-keystroke="meta ADD" />
+  </action>
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="meta SUBTRACT" />
+  </action>
+  <action id="Maven.CollapseAll">
+    <keyboard-shortcut first-keystroke="meta SUBTRACT" />
+  </action>
+  <action id="Maven.ExpandAll">
+    <keyboard-shortcut first-keystroke="meta ADD" />
+  </action>
   <action id="RerunTests">
     <keyboard-shortcut first-keystroke="shift alt R" />
   </action>
