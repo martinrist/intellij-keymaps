@@ -115,6 +115,16 @@
   <action id="Maven.ExpandAll">
     <keyboard-shortcut first-keystroke="meta ADD" />
   </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="meta F6" />
+    <keyboard-shortcut first-keystroke="meta alt RIGHT" />
+    <keyboard-shortcut first-keystroke="meta PAGE_DOWN" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift meta F6" />
+    <keyboard-shortcut first-keystroke="meta alt LEFT" />
+    <keyboard-shortcut first-keystroke="meta PAGE_UP" />
+  </action>
   <action id="RerunTests">
     <keyboard-shortcut first-keystroke="shift alt R" />
   </action>
