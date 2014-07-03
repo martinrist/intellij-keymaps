@@ -15,9 +15,6 @@
   <action id=":plugin.actions.paredit/forward">
     <keyboard-shortcut first-keystroke="shift meta L" />
   </action>
-  <action id=":plugin.actions.paredit/join">
-    <keyboard-shortcut first-keystroke="control meta S" />
-  </action>
   <action id=":plugin.actions.paredit/kill">
     <keyboard-shortcut first-keystroke="control K" />
   </action>
@@ -32,9 +29,6 @@
   </action>
   <action id=":plugin.actions.paredit/splice">
     <keyboard-shortcut first-keystroke="shift meta SEMICOLON" />
-  </action>
-  <action id=":plugin.actions.paredit/split">
-    <keyboard-shortcut first-keystroke="meta S" />
   </action>
   <action id=":plugin.repl.actions/clear-repl">
     <keyboard-shortcut first-keystroke="control meta C" />
