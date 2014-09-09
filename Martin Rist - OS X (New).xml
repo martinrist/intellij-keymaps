@@ -42,6 +42,9 @@
   <action id=":plugin.repl.actions/run-top-sexp">
     <keyboard-shortcut first-keystroke="control meta E" />
   </action>
+  <action id=":plugin.repl.actions/search-history">
+    <keyboard-shortcut first-keystroke="meta R" />
+  </action>
   <action id=":plugin.repl.actions/switch-namespace">
     <keyboard-shortcut first-keystroke="control meta N" />
   </action>
@@ -51,6 +54,7 @@
   <action id="ActivateDocumentationToolWindow">
     <keyboard-shortcut first-keystroke="meta 2" />
   </action>
+  <action id="ActivateMessagesToolWindow" />
   <action id="ActivateProjectToolWindow">
     <keyboard-shortcut first-keystroke="meta 1" />
   </action>
@@ -73,8 +77,14 @@
   <action id="EditorDecreaseFontSize">
     <keyboard-shortcut first-keystroke="meta MINUS" />
   </action>
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="control D" second-keystroke="control D" />
+  </action>
   <action id="EditorIncreaseFontSize">
     <keyboard-shortcut first-keystroke="meta EQUALS" />
+  </action>
+  <action id="EditorResetFontSize">
+    <keyboard-shortcut first-keystroke="meta 0" />
   </action>
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="meta ADD" />
@@ -96,6 +106,9 @@
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="meta button1" />
   </action>
+  <action id="GotoNamespace">
+    <keyboard-shortcut first-keystroke="shift meta N" />
+  </action>
   <action id="Images.Editor.ToggleGrid" />
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="meta ADD" />
@@ -109,6 +122,7 @@
   <action id="Maven.ExpandAll">
     <keyboard-shortcut first-keystroke="meta ADD" />
   </action>
+  <action id="NewScratchFile" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta F6" />
     <keyboard-shortcut first-keystroke="meta alt RIGHT" />
@@ -122,6 +136,7 @@
   <action id="RerunTests">
     <keyboard-shortcut first-keystroke="shift alt R" />
   </action>
+  <action id="RunToCursor" />
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt ENTER" />
   </action>
