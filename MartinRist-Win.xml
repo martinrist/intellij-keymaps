@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <keymap version="1" name="Martin Rist - Windows" parent="Eclipse">
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="control C" />
@@ -225,4 +224,3 @@
   <action id="tasks.switch" />
   <action id="tasks.switch.toolbar" />
 </keymap>
-
