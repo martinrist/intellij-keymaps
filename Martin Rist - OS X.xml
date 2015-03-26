@@ -60,6 +60,11 @@
   <action id="ActivateREPLToolWindow">
     <keyboard-shortcut first-keystroke="meta 3" />
   </action>
+  <action id="ActivateRunToolWindow" />
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt F12" />
+    <keyboard-shortcut first-keystroke="meta 4" />
+  </action>
   <action id="CollapseAll">
     <keyboard-shortcut first-keystroke="meta SUBTRACT" />
   </action>
