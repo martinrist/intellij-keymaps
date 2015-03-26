@@ -1,53 +1,53 @@
 <keymap version="1" name="Martin Rist - OS X" parent="Eclipse (Mac OS X)">
-  <action id=":plugin.actions.paredit/backward">
+  <action id=":cursive.actions.paredit/backward">
     <keyboard-shortcut first-keystroke="shift meta H" />
   </action>
-  <action id=":plugin.actions.paredit/barf-backwards">
+  <action id=":cursive.actions.paredit/barf-backwards">
     <keyboard-shortcut first-keystroke="control meta K" />
   </action>
-  <action id=":plugin.actions.paredit/barf-forwards">
+  <action id=":cursive.actions.paredit/barf-forwards">
     <keyboard-shortcut first-keystroke="shift meta J" />
   </action>
-  <action id=":plugin.actions.paredit/copy-as-kill">
+  <action id=":cursive.actions.paredit/copy-as-kill">
     <keyboard-shortcut first-keystroke="shift control K" />
   </action>
-  <action id=":plugin.actions.paredit/forward">
+  <action id=":cursive.actions.paredit/forward">
     <keyboard-shortcut first-keystroke="shift meta L" />
   </action>
-  <action id=":plugin.actions.paredit/kill">
+  <action id=":cursive.actions.paredit/kill">
     <keyboard-shortcut first-keystroke="control K" />
   </action>
-  <action id=":plugin.actions.paredit/raise">
+  <action id=":cursive.actions.paredit/raise">
     <keyboard-shortcut first-keystroke="meta QUOTE" />
   </action>
-  <action id=":plugin.actions.paredit/slurp-backwards">
+  <action id=":cursive.actions.paredit/slurp-backwards">
     <keyboard-shortcut first-keystroke="control meta J" />
   </action>
-  <action id=":plugin.actions.paredit/slurp-forwards">
+  <action id=":cursive.actions.paredit/slurp-forwards">
     <keyboard-shortcut first-keystroke="shift meta K" />
   </action>
-  <action id=":plugin.actions.paredit/splice">
+  <action id=":cursive.actions.paredit/splice">
     <keyboard-shortcut first-keystroke="shift meta SEMICOLON" />
   </action>
-  <action id=":plugin.repl.actions/clear-repl">
+  <action id=":cursive.repl.actions/clear-repl">
     <keyboard-shortcut first-keystroke="control meta C" />
   </action>
-  <action id=":plugin.repl.actions/load-file">
+  <action id=":cursive.repl.actions/load-file">
     <keyboard-shortcut first-keystroke="control meta L" />
   </action>
-  <action id=":plugin.repl.actions/run-last-sexp">
+  <action id=":cursive.repl.actions/run-last-sexp">
     <keyboard-shortcut first-keystroke="control meta R" />
   </action>
-  <action id=":plugin.repl.actions/run-top-sexp">
+  <action id=":cursive.repl.actions/run-top-sexp">
     <keyboard-shortcut first-keystroke="control meta E" />
   </action>
-  <action id=":plugin.repl.actions/search-history">
+  <action id=":cursive.repl.actions/search-history">
     <keyboard-shortcut first-keystroke="meta R" />
   </action>
-  <action id=":plugin.repl.actions/switch-namespace">
+  <action id=":cursive.repl.actions/switch-namespace">
     <keyboard-shortcut first-keystroke="control meta N" />
   </action>
-  <action id=":plugin.testing.actions/run-ns-tests">
+  <action id=":cursive.testing.actions/run-ns-tests">
     <keyboard-shortcut first-keystroke="control meta T" />
   </action>
   <action id="ActivateDocumentationToolWindow">

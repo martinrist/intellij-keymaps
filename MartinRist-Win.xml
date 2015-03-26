@@ -11,34 +11,34 @@
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift alt Z" />
   </action>
-  <action id=":plugin.actions.paredit/barf-backwards">
+  <action id=":cursive.actions.paredit/barf-backwards">
     <keyboard-shortcut first-keystroke="shift control K" />
   </action>
-  <action id=":plugin.actions.paredit/barf-forwards">
+  <action id=":cursive.actions.paredit/barf-forwards">
     <keyboard-shortcut first-keystroke="control alt J" />
   </action>
-  <action id=":plugin.actions.paredit/slurp-backwards">
+  <action id=":cursive.actions.paredit/slurp-backwards">
     <keyboard-shortcut first-keystroke="shift control J" />
   </action>
-  <action id=":plugin.actions.paredit/slurp-forwards">
+  <action id=":cursive.actions.paredit/slurp-forwards">
     <keyboard-shortcut first-keystroke="control alt K" />
   </action>
-  <action id=":plugin.repl.actions/clear-repl">
+  <action id=":cursive.repl.actions/clear-repl">
     <keyboard-shortcut first-keystroke="control alt C" />
   </action>
-  <action id=":plugin.repl.actions/load-file">
+  <action id=":cursive.repl.actions/load-file">
     <keyboard-shortcut first-keystroke="control alt L" />
   </action>
-  <action id=":plugin.repl.actions/run-last-sexp">
+  <action id=":cursive.repl.actions/run-last-sexp">
     <keyboard-shortcut first-keystroke="control alt R" />
   </action>
-  <action id=":plugin.repl.actions/run-top-sexp">
+  <action id=":cursive.repl.actions/run-top-sexp">
     <keyboard-shortcut first-keystroke="control alt E" />
   </action>
-  <action id=":plugin.repl.actions/switch-namespace">
+  <action id=":cursive.repl.actions/switch-namespace">
     <keyboard-shortcut first-keystroke="control alt N" />
   </action>
-  <action id=":plugin.testing.actions/run-ns-tests">
+  <action id=":cursive.testing.actions/run-ns-tests">
     <keyboard-shortcut first-keystroke="control alt T" />
   </action>
   <action id="ActivateDebugToolWindow">
