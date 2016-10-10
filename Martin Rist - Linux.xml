@@ -22,6 +22,96 @@
     <keyboard-shortcut first-keystroke="ctrl z" />
     <keyboard-shortcut first-keystroke="alt z" />
   </action>
+  <action id=":cursive.actions.paredit/backward">
+    <keyboard-shortcut first-keystroke="ctrl left" />
+  </action>
+  <action id=":cursive.actions.paredit/barf-backwards">
+    <keyboard-shortcut first-keystroke="ctrl meta k" />
+  </action>
+  <action id=":cursive.actions.paredit/barf-forwards">
+    <keyboard-shortcut first-keystroke="shift ctrl j" />
+  </action>
+  <action id=":cursive.actions.paredit/close-curly-and-newline">
+    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
+  </action>
+  <action id=":cursive.actions.paredit/close-paren-and-newline">
+    <keyboard-shortcut first-keystroke="shift ctrl 0" />
+  </action>
+  <action id=":cursive.actions.paredit/close-square-and-newline">
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+  </action>
+  <action id=":cursive.actions.paredit/copy-as-kill">
+    <keyboard-shortcut first-keystroke="shift meta k" />
+  </action>
+  <action id=":cursive.actions.paredit/forward">
+    <keyboard-shortcut first-keystroke="ctrl right" />
+  </action>
+  <action id=":cursive.actions.paredit/join">
+    <keyboard-shortcut first-keystroke="ctrl meta s" />
+  </action>
+  <action id=":cursive.actions.paredit/kill-sexp">
+    <keyboard-shortcut first-keystroke="meta alt k" />
+  </action>
+  <action id=":cursive.actions.paredit/move-form-down">
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id=":cursive.actions.paredit/move-form-up">
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id=":cursive.actions.paredit/raise">
+    <keyboard-shortcut first-keystroke="ctrl quote" />
+  </action>
+  <action id=":cursive.actions.paredit/slurp-backwards">
+    <keyboard-shortcut first-keystroke="ctrl meta j" />
+  </action>
+  <action id=":cursive.actions.paredit/slurp-forwards">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+  </action>
+  <action id=":cursive.actions.paredit/splice">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id=":cursive.actions.paredit/split">
+    <keyboard-shortcut first-keystroke="shift alt s" />
+  </action>
+  <action id=":cursive.actions.paredit/thread-form">
+    <keyboard-shortcut first-keystroke="ctrl alt comma" />
+  </action>
+  <action id=":cursive.actions.paredit/unthread-form">
+    <keyboard-shortcut first-keystroke="ctrl alt period" />
+  </action>
+  <action id=":cursive.actions.paredit/wrap-curly">
+    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
+  </action>
+  <action id=":cursive.actions.paredit/wrap-paren">
+    <keyboard-shortcut first-keystroke="shift ctrl 9" />
+  </action>
+  <action id=":cursive.actions.paredit/wrap-quotes">
+    <keyboard-shortcut first-keystroke="shift ctrl quote" />
+  </action>
+  <action id=":cursive.actions.paredit/wrap-square">
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+  </action>
+  <action id=":cursive.repl.actions/load-file">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+  <action id=":cursive.repl.actions/run-top-sexp">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
+  <action id=":cursive.repl.actions/search-history">
+    <keyboard-shortcut first-keystroke="ctrl alt e" />
+  </action>
+  <action id=":cursive.repl.actions/switch-namespace">
+    <keyboard-shortcut first-keystroke="ctrl alt n" />
+  </action>
+  <action id=":cursive.repl.actions/sync-files">
+    <keyboard-shortcut first-keystroke="shift ctrl m" />
+  </action>
+  <action id=":cursive.testing.actions/remove-test-markers">
+    <keyboard-shortcut first-keystroke="shift ctrl back_space" />
+  </action>
+  <action id=":cursive.testing.actions/run-ns-tests">
+    <keyboard-shortcut first-keystroke="ctrl alt t" />
+  </action>
   <action id="CloseActiveTab">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
@@ -31,6 +121,7 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
+  <action id="ContextHelp" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
@@ -47,6 +138,14 @@
     <keyboard-shortcut first-keystroke="alt z" />
     <keyboard-shortcut first-keystroke="ctrl z" />
   </action>
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="FindPrevious" />
   <action id="GotoClass">
     <keyboard-shortcut first-keystroke="shift alt t" />
   </action>
@@ -58,23 +157,37 @@
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
   <action id="Move" />
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
   <action id="PasteMultiple">
     <keyboard-shortcut first-keystroke="shift ctrl v" />
     <keyboard-shortcut first-keystroke="shift ctrl insert" />
     <keyboard-shortcut first-keystroke="shift alt v" />
   </action>
-  <action id="RenameElement" />
+  <action id="Print" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="RerunTests" />
   <action id="SelectNextOccurrence" />
   <action id="ShowPopupMenu">
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="shift alt s" />
     <keyboard-shortcut first-keystroke="ctrl f10" />
+    <keyboard-shortcut first-keystroke="context_menu" />
   </action>
   <action id="ShowProjectStructureSettings">
     <keyboard-shortcut first-keystroke="alt semicolon" />
   </action>
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="alt comma" />
+  </action>
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="shift alt z" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
@@ -91,6 +204,7 @@
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
+  <action id="hg4idea.QGotoFromPatches" />
   <action id="tasks.close" />
   <action id="tasks.switch" />
   <action id="tasks.switch.toolbar" />
